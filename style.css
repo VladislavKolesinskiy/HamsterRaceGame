@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: rgb(155, 225, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 1000px;
+    height: 600px;
+    background: orange;
+    border: 5px solid black;
+    border-radius: 20px;
+    position: relative;
+}
+
+.button {
+    padding: 15px 30px;
+    font-size: 30px;
+    background: red;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hamster {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+	background: url(hom.png) 0 0 no-repeat;
+	background-size: contain;
+}
+.hamster.tort, .hamster.konfeta, .hamster.morkovka, .hamster.pelmen {
+	background-image: url(homwin.png);
+}
